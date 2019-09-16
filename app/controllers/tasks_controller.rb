@@ -6,11 +6,7 @@ class TasksController < ApplicationController
   end
 
   before_action busted
-
-  def busted
-    binding.pry
-  end
-
+  
   # GET /tasks
   # GET /tasks.json
   def index
